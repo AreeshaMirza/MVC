@@ -1,0 +1,240 @@
+﻿#success {
+            background-color: #3ab26c;
+            border: none;
+            color: white;
+            padding: 15px 25px;
+            margin-left:-150px;
+            width: 12em;  height: 3em;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color:#2dcc70;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px;
+            border: none;
+            cursor: pointer;
+            width: 33%;
+            
+        }
+
+
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+        }
+
+        img.avatar {
+            width: 30%;
+            border-radius: 50%;
+        }
+        .container {
+            padding:10px;
+        }
+        span.psw {
+            float: left;
+            padding-top: 16px;
+        }
+           
+        
+ <------Signup------->   
+         
+        *[role="form"] {
+            max-width: 500px;
+            padding: 10px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 0.3em;
+        }
+
+            *[role="form"] h2 {
+                margin-left: 5em;
+                margin-bottom: 1em;
+            }
+        #button {
+            background-color: #1ea758;
+            border: none;
+            border-radius:12px;
+            color: white;
+            padding: 15px 25px;
+            margin:0 auto;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            float:right;
+            -webkit-transition-duration: 0.4s; /* Safari */
+             transition-duration: 0.4s;
+        }
+        #button:hover{
+             background-color: #126334;
+             color: white;
+        }
+        
+        .image:hover {
+            border-top-left-radius: 30px 120px;
+            border-bottom-right-radius: 30px 120px;
+            border-bottom-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .image {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 120px 30px;
+            border-bottom-left-radius: 120px 30px;
+            border-bottom-right-radius: 15px;
+            -webkit-transition: all 0.7s ease;
+            transition: all 0.7s ease;
+        }
+
+        .text:hover {
+            text-shadow: 0px 0 15px #fff;
+        }
+
+        .text {
+            -webkit-transition: all 0.7s ease;
+            transition: all 0.7s ease;
+        }
+
+        .tooltip {
+            position: relative;
+            opacity: 0;
+            color: #FFF;
+            top: -100px;
+            left: 10%;
+            width: 180px;
+            padding: 10px;
+            border-radius: 25px;
+            -webkit-border-radius: 25px;
+            background-color: lightgreen;
+            -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+            box-shadow: 0px 0px 15px 2px rgba(255,255,255, .75);
+            -webkit-transition: .5s;
+            transition: .5s;
+            -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+        }
+
+        .container-fluid.tooltip:after {
+            position: absolute;
+            top: 100%;
+            left: 45%;
+            height: 0;
+            width: 0;
+            border: 6px solid transparent;
+            border-top: 14px solid rgba(0, 0, 30, 0.5);
+            content: "Awesome!";
+            white-space: nowrap;
+            color: #DDD;
+        }
+
+.container-fluid:hover .tooltip {
+    opacity: 1;
+    top: -380px;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+
+ 
+.container .textbox {
+                width: 50px;
+                height: 150px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                -webkit-transform: scale(0);
+                transform: scale(0);
+                border-radius: 1px;
+                background-color: rgba(0,0,0,0.75);
+                -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+                box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+            }
+
+            .container:hover .textbox {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+
+        .text {
+            padding-top: 50px;
+        }
+
+        .textbox {
+            -webkit-transition: all 0.7s ease;
+            transition: all 0.7s ease;
+        }
+ #image1 { 
+            width: 300px;
+            height: 160px;
+            padding: 10px;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        #image2 {
+            width: 300px;
+            height: 160px;
+            padding: 10px;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        #image3 {
+            width: 300px;
+            height: 160px;
+            padding: 10px;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        #image4 {
+            width: 300px;
+            height: 160px;
+            padding: 10px;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        #image5 {
+            width: 300px;
+            height: 160px;
+            padding: 10px;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        #image6 {
+            width: 300px;
+            height: 160px;
+            padding: 10px;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-6px;
+}
